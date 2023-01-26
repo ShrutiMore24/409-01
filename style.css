@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mainDiv{
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    margin-bottom: 1.3rem;
+}
+.firstnamediv,.lastnamediv,.maildiv,.passworddiv,.biodiv,.submitbtn,.telephonediv{
+    /* border: 2px solid green; */
+    height: 10%;
+    width: 40%;
+}
+input{
+    margin-top: .4rem;
+    height: 50%;
+    width: 90%;
+    font-size: 1.3rem;
+}
+p{
+    color: orange;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+label{
+    /* padding-bottom: 1rem; */
+    font-size: 1.3rem;
+}
+button{
+    height: 80%;
+    width: 30%;
+    background-color: #444444;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+}
+
+@media only screen and (max-width:620px){
+    h1{
+        text-align: center;
+        
+    }
+    .firstnamediv,.lastnamediv,.maildiv,.passworddiv,.biodiv,.submitbtn,.telephonediv{
+        /* border: 2px solid green; */
+        height: 10%;
+        width: 80%;
+    }
+    p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    button{
+        width: 50%;
+        /* color: rgb(228, 76, 21); */
+    }
+}
